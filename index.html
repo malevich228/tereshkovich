@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Резюме</title>
+  </head>
+
+  <body style="margin: 0;">
+    <div class="tools">
+      <div style= "margin-left: 10%; width:80%; height: 20vh; background-color:blue"></div>
+      <div style= "float: left; margin-left: 10%; width:15%; height: 60vh; background-color:yellow"></div>
+      <div style= "float: left; width:65%; height: 20vh; background-color:yellow"></div>
+      <div style= "float: left; width:65%; height: 40vh">
+          <button onclick="myFunction()">Формула</button>
+      </div>
+      <div style= "float: left; margin-left: 10%; width:80%; height: 20vh; background-color:blue"></div>
+
+      </div>  
+  </body>
+</html>
+
+<script>
+  function myFunction() {
+    var xyz;
+  for (xyz = 0; xyz < 10; xyz+=1.5) {
+      alert(Math.sqrt(xyz)+Math.sqrt(xyz+Math.sqrt(2*xyz)));
+  }
+  }
+  </script>
